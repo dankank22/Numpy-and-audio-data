@@ -7,7 +7,7 @@ from IPython.display import Image #For displaying images in colab jupyter cell
 
 # Exercise 1: Loops vs Numpy operations
 
-Image('lab2_exercise1.PNG', width = 1000)
+Image('exercise1.PNG', width = 1000)
 
 arr2d_1 = np.random.randn(1000, 1000) * 10
 arr2d_2 = np.random.randn(1000, 1000) * 10
@@ -52,7 +52,7 @@ The elementwise addition using the Numpy function is faster by a factor of great
 
 # Exercise 2: Generate Triangular Waveform
 
-Image('lab2_exercise2.PNG', width = 1000)
+Image('exercise2.PNG', width = 1000)
 
 import matplotlib.pyplot as plt
 
@@ -92,7 +92,7 @@ plt.plot(x_values, y_values, c="blue")
 
 # Exercise 3: Sinusoidal Generator
 
-Image('lab2_exercise3.PNG', width = 1000)
+Image('exercise3.PNG', width = 1000)
 
 # Define generate_sine function
 import math
@@ -152,7 +152,7 @@ fig.tight_layout()
 
 # Exercise 4: Notes Synthesis
 
-Image('lab2_exercise4.PNG', width = 1000)
+Image('exercise4.PNG', width = 1000)
 
 import IPython.display as ipd
 from scipy.io import wavfile as wav
@@ -182,7 +182,7 @@ display(ipd.Audio(audio_file_name))
 
 # Exercise 5: Chord Synthesis
 
-Image('lab2_exercise5.PNG', width = 1000)
+Image('exercise5.PNG', width = 1000)
 
 sampling_rate = 8000
 t_duration = 1

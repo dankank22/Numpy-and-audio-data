@@ -1,4 +1,4 @@
-## E3 - Numpy and Audio
+## E2 - Numpy and Audio
 
 A compilation of 5 exercises testing Numpy and audio data: 
 
